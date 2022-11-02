@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+*{
+    margin: 20px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(81, 167, 138);
+
+}
+
+body{
+    background-color: rgb(81, 167, 138);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer{
+    background-color: rgb(46, 99, 81);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-bottom: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#foto1{
+    margin: 20px;
+    width: 97%;
+}
+
+h1{
+    text-align: center;
+    border: 2px, black;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h2{
+    text-align: center;
+    color: rgba(0, 0, 0, .7);
+    border: 4px, black;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+p{
+    text-align: justify;
+}
+
+div#menu{
+    background-color: aqua;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.tabela {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* display: flex;
+    align-items: center;
+    justify-content: flex-start; */
+
+}
+
+ .esquerda{
+    width: 100%;
+}
+
+.meio{
+    width: 100%;
+    max-width: 300px;
+} 
+
+.direita{
+    width: 100%;
+} 
+
+.meio2{
+    width: 100%;
+    
+} 
